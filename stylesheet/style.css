@@ -1,0 +1,24 @@
+#nav_picture {
+  margin-top: 33.8px;
+  width: 163.86px;
+  height: 47.83px;
+}
+
+#header_img {
+  max-width: 370px;
+}
+
+p {
+  color: black;
+}
+
+button {
+  border: none;
+  color: #FFFFFF;
+  background-color: #1492E6;
+}
+
+.text {
+  font-size: 19px !important;
+  color: #000000 !important;
+}/*# sourceMappingURL=style.css.map */
