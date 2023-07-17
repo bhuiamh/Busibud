@@ -5,20 +5,72 @@
 }
 
 #header_img {
-  max-width: 370px;
+  width: 509px;
+  height: 518px;
+}
+
+#heading {
+  margin-top: 80px;
+  width: 584px;
+  margin-right: 10px;
+}
+
+#headig-p {
+  width: 520px;
+  height: 120px;
+  color: #000000;
+}
+
+h3 {
+  color: #000000 !important;
+  font-size: 40px !important;
 }
 
 p {
   color: black;
 }
 
-button {
+.buttonCommon {
   border: none;
-  color: #FFFFFF;
-  background-color: #1492E6;
+  font-size: 23px;
+  color: #ffffff;
+  background-color: #1492e6;
+  width: 248px;
+  height: 65px;
+  margin-top: 80px !important;
+  border-radius: 50px !important;
 }
 
 .text {
   font-size: 19px !important;
   color: #000000 !important;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+hr {
+  margin-top: 0 !important;
+}
+
+#about {
+  margin-top: 120px;
+}
+
+h2 {
+  color: #000000 !important;
+}
+
+h6 {
+  font-size: 18px !important;
+}
+
+.card-body {
+  width: 308px !important;
+  height: 320px !important;
+  border-radius: 20px !important;
+  margin: 0 10px;
+}
+
+.person {
+  width: 150px;
+  height: 161px;
 }/*# sourceMappingURL=style.css.map */

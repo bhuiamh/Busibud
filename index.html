@@ -11,120 +11,132 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,600&display=swap");
+    </style>
     <title>Busibud Task</title>
   </head>
-  <body class="container">
+  <body class="container-fluid">
     <!--------------------------
                     Navbar Image 
                 -------------------------->
-    <section>
+    <div>
       <div class="text-center">
         <img id="nav_picture" src="./Images/inbox.png" alt="" />
       </div>
       <!--------------------------
                       Navbar 
                 -------------------------->
-      <nav id="navbar" class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="d-sm-flex justify-content-sm-center collapse navbar-collapse"
-            id="navbarNavDropdown"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item mx-3">
-                <a class="nav-link active text" aria-current="page" href="#"
-                  >Nav1</a
-                >
-              </li>
-              <li class="nav-item text">
-                <a class="nav-link mx-3 text" href="#">Nav2</a>
-              </li>
+      <div>
+        <nav id="navbar" class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="d-lg-flex justify-content-sm-center collapse navbar-collapse"
+              id="navbarNavDropdown"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item mx-3">
+                  <a class="nav-link active text" aria-current="page" href="#"
+                    >Nav1</a
+                  >
+                </li>
+                <li class="nav-item text">
+                  <a class="nav-link mx-3 text" href="#">Nav2</a>
+                </li>
 
-              <li class="nav-item dropdown mx-3">
-                <a
-                  class="nav-link dropdown-toggle text"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Nav3
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown mx-3">
-                <a
-                  class="nav-link dropdown-toggle text"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Nav4
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-3 text" href="#">Nav5</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-3 text" href="#">Nav6</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-3 text" href="#">Nav7</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-3 text" href="#">Nav8</a>
-              </li>
-            </ul>
+                <li class="nav-item dropdown mx-3">
+                  <a
+                    class="nav-link dropdown-toggle text"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Nav3
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown mx-3">
+                  <a
+                    class="nav-link dropdown-toggle text"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Nav4
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-3 text" href="#">Nav5</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-3 text" href="#">Nav6</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-3 text" href="#">Nav7</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-3 text" href="#">Nav8</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-    </section>
+        </nav>
+      </div>
+    </div>
     <hr />
     <!---------------------------------
                   Header And Body Section
                   ------------------------------>
     <header>
-      <div class="d-flex">
+      <div class="container d-flex flex-column flex-sm-row">
         <div>
           <div>
-            <h3>
-              Hello there, welcome to our Busibud webpage. This is created By
-              Sadakat Hossain
-            </h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
-              labore dolorem, tempore tempora corporis placeat ex eius nihil,
-              perspiciatis, quam dolor? Magnam corrupti, a, quibusdam error
-              quaerat, incidunt adipisci aut omnis libero cum minima similique.
-              Dolore molestias sunt sint quidem.
-            </p>
+            <div id="heading">
+              <h3 class="fw-bold">
+                Hello threre, welcome to Busibud with Sadakat.
+              </h3>
+            </div>
+            <div id="headig-p">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
+                labore dolorem, tempore tempora corporis placeat ex eius nihil,
+                perspiciatis, quam dolor? Magnam corrupti, a, quibusdam error
+                quaerat, incidunt adipisci aut omnis libero cum minima
+                similique. Dolore molestias sunt sint quidem.
+              </p>
+            </div>
           </div>
-          <button>Check Pricing</button>
+          <button class="buttonCommon">Check Pricing</button>
         </div>
         <div>
           <img id="header_img" src="/Images/headerImg.png" alt="" />
@@ -132,13 +144,130 @@
       </div>
     </header>
     <!---------------------------------
-                  Header And Body Section
+                    About Section
                   ------------------------------>
+
+    <div class="container">
+      <div id="about">
+        <h2 class="text-center mt-5">Let's know about our website</h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-6 col-lg-4 my-4">
+          <div class="card card-body">
+            <div class="card-body">
+              <h6 class="card-title text-center my-4 fw-bold">
+                Something About
+              </h6>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                voluptatibus nemo harum culpa nam ipsam eos facere, explicabo
+                nesciunt voluptatum itaque fuga accusantium quaerat nihil sed
+                modi dolore aspernatur accusamus ipsa non earum recusandae.
+                Dolores sequi a pariatur officia optio!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 my-4">
+          <div class="card card-body">
+            <div class="card-body">
+              <h6 class="card-title text-center my-4 fw-bold">
+                Something About
+              </h6>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                voluptatibus nemo harum culpa nam ipsam eos facere, explicabo
+                nesciunt voluptatum itaque fuga accusantium quaerat nihil sed
+                modi dolore aspernatur accusamus ipsa non earum recusandae.
+                Dolores sequi a pariatur officia optio!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 my-4">
+          <div class="card card-body">
+            <div class="card-body">
+              <h6 class="card-title text-center my-4 fw-bold">
+                Something About
+              </h6>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                voluptatibus nemo harum culpa nam ipsam eos facere, explicabo
+                nesciunt voluptatum itaque fuga accusantium quaerat nihil sed
+                modi dolore aspernatur accusamus ipsa non earum recusandae.
+                Dolores sequi a pariatur officia optio!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!---------------------------------
-                  Header And Body Section
+                  Working purpose Section
                   ------------------------------>
+    <div class="container">
+      <div>
+        <h2 class="text-center my-5 work-card">Here is showing our working purpose .</h2>
+      </div>
+        <div class="d-flex">
 
+           <!-- fist part of about -->
+
+           <div class="container mb-5">
+            <div class="row d-flex">
+              <div class="col-sm-12 col-md-6 col-lg-4 my-4">
+                <div class="card-body">
+                  <div><img class="person" src="/Images/person1.png" alt=""></div>
+                  <h6 class="card-title my-4 fw-bold">
+                    Honestly Working
+                  </h6>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                    voluptatibus nemo harum culpa nam ipsam eos facere, explicabo
+                    nesciunt voluptatum itaque fuga accusantium quaerat nihil sed
+                    modi dolore aspernatur accusamus ipsa non earum recusandae.
+                    Dolores sequi a pariatur officia optio!
+                  </p>
+                </div>
+              </div>
+          
+              <!-- Second part of about -->
+              <div class="col-sm-12 col-md-6 col-lg-4 my-4">
+                <div class="card-body">
+                  <div><img class="person" src="/Images/person2.png" alt=""></div>
+                  <h6 class="card-title my-4 fw-bold">
+                    Better Perfoemance
+                  </h6>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                    voluptatibus nemo harum culpa nam ipsam eos facere, explicabo
+                    nesciunt voluptatum itaque fuga accusantium quaerat nihil sed
+                    modi dolore aspernatur accusamus ipsa non earum recusandae.
+                    Dolores sequi a pariatur officia optio!
+                  </p>
+                </div>
+              </div>
+          
+              <!-- Third part of about -->
+              <div class="col-sm-12 col-md-6 col-lg-4 my-4">
+                <div class="card-body">
+                  <div><img class="person" src="/Images/person3.png" alt=""></div>
+                  <h6 class="card-titler my-4 fw-bold">
+                    Customer Service
+                  </h6>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                    voluptatibus nemo harum culpa nam ipsam eos facere, explicabo
+                    nesciunt voluptatum itaque fuga accusantium quaerat nihil sed
+                    modi dolore aspernatur accusamus ipsa non earum recusandae.
+                    Dolores sequi a pariatur officia optio!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
     <!---------------------------------
                   Header And Body Section
                   ------------------------------>
