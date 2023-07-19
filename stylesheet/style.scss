@@ -4,15 +4,12 @@ h3{
   color: #000000 !important;
   font-size: 40px !important;
 }
-
 .container{
   position: relative;
 }
-
 p {
   color: black;
 }
-
 .buttonCommon{
   border: none;
   font-size: 23px;
@@ -23,8 +20,8 @@ p {
   box-shadow: 0 0 10px 5px rgba(0.1, 0.1, 0.1, 0.1);
   border-radius: 50px !important;
 }
-//------------ Styles For Nav Section ----------//
 
+//------------ Styles For Nav Section ----------//
 #nav_picture {
   margin-top: 33.8px;
   width: 163.86px;
@@ -35,52 +32,41 @@ p {
 #header_img {
   width: 500px;
   height: 518px;
-
 }
-
-
 #heading{
   margin-top: 80px;
   width: 584px;
   margin-right: 10px;
 }
-
 #headig-p{
   width: 520px;
   height: 120px;
   color: #000000;
 }
-
-
 .text {
   font-size: 19px !important;
   color: #000000 !important;
   font-family: 'Open Sans', sans-serif !important;
 }
-
 #buttonCommon{
   margin-top: 80px !important;
   position: absolute;
   bottom: 0;
 }
-
 hr {
   margin-top: 0 !important;
 }
 
 // ------------ About sections style ------------- //
-
 #about{
   margin-top: 120px;
 }
-
 h2{
   color: #000000 !important;
 }
 h6{
   font-size: 18px !important;
 }
-
 
 //  ---------- Working purpose Styles ------------ //
 .person{
@@ -92,18 +78,15 @@ h6{
 .service-img{
   width: 70px;
   height: 70px;
+  margin: 0px;
 }
-
-.servicees{
-
-}
-
 .service-details{
   max-width: 50% !important;
 }
 
-// --------- Testemonials sections style--------- //
 
+
+// --------- Testemonials sections style--------- //
 .testemonials{
   margin-top: 80px;
   margin-bottom: 80px;
@@ -113,7 +96,6 @@ h6{
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
   background-color: #F8FAFC;
 }
-
 .testy-class{
   width: 285px;
   height: 263px;
@@ -122,16 +104,13 @@ h6{
   background-color: #F8FAFC;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
 }
-
 .testemonials-img{
   width: 64px;
 }
-
 .author-img{
 width: 44px;
 height: 44px;
 }
-
 .star-img{
   margin-top: 5px !important;
   width: 15px !important;
@@ -139,4 +118,38 @@ height: 44px;
   display: flex;
 }
 
+// ---------- Extra section style ---------- //
 
+#extra-img1{
+  width: 185px !important;
+  height: 58px !important;
+}
+#extra-img2{
+  width: 177px !important;
+  height: 100px !important;
+}
+#extra-img3{
+  width: 88px !important;
+  height: 88px !important;
+}
+.extra-div{
+  display: flex;
+  justify-content: space-around;
+}
+#extra-heading{
+  margin-top: 200px !important;
+  margin-bottom:100px !important;
+}
+
+// -------- Footer Section Styles ---------//
+#Footer{
+  margin-top: 100px;
+  width: 1280px;
+  height: 320px;
+  background-color: #000000;
+}
+#footer-text{
+  // position: absolute;
+  text-align: center;
+color: #ffffff;
+}
