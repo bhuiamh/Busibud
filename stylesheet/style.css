@@ -1,6 +1,29 @@
+.background {
+  position: relative;
+}
+
+.wave-header {
+  min-height: 100vh;
+  width: 100%;
+  background: #F8FAFC;
+  position: relative;
+}
+
+.background-wav {
+  position: relative;
+}
+
+.bg-wav {
+  position: absolute;
+  bottom: 0;
+}
+
+.z-index {
+  z-index: 10;
+}
+
 h3 {
   color: #000000 !important;
-  font-size: 40px !important;
 }
 
 .container {
@@ -29,20 +52,22 @@ p {
 }
 
 #header_img {
-  width: 500px;
+  width: 400px;
   height: 518px;
 }
 
 #heading {
   margin-top: 80px;
-  width: 584px;
-  margin-right: 10px;
 }
 
 #headig-p {
   width: 520px;
   height: 120px;
   color: #000000;
+}
+
+.head-text {
+  font-size: 32px;
 }
 
 .text {
@@ -85,7 +110,21 @@ h6 {
 }
 
 .service-details {
-  max-width: 50% !important;
+  text-align: left;
+}
+
+.custom-row {
+  display: flex;
+}
+
+.custom-div {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.head {
+  position: relative;
 }
 
 .testemonials {
@@ -105,6 +144,7 @@ h6 {
   padding: 10px;
   background-color: #F8FAFC;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
 }
 
 .testemonials-img {
@@ -149,13 +189,17 @@ h6 {
 }
 
 #Footer {
+  position: relative;
   margin-top: 100px;
-  width: 1280px;
   height: 320px;
   background-color: #000000;
 }
 
 #footer-text {
-  text-align: center;
+  width: 100%;
   color: #ffffff;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
 }/*# sourceMappingURL=style.css.map */
